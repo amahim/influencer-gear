@@ -23,6 +23,7 @@ body{
     gap: 80px;
     width: 1240px;
     height: 500px;
+    margin: 0 auto;
 }
 .banner-img{
     position: relative;
@@ -140,4 +141,66 @@ body{
     margin-left: 5px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+}
+.featured{
+    width: 1110px;
+    height: 270px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+}
+.ft-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 90px;
+}
+.ft-right h3{
+    width: 610px;
+    color: rgb(10, 8, 38);
+    font-size: 2.375rem;
+    font-weight: 700;
+}
+.ft-right p{
+    width: 501px;
+    color: rgb(108, 108, 108);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: -25px;
+}
+.ft-right button{
+    background: rgb(224, 44, 109);
+    width: 155px;
+    height: 44px;
+    padding: 10px 24px 10px 24px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+}
+.footer{
+    height: 250px;
+    width: 1290px;
+    background-color: rgb(35, 7, 100);
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.foot-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.footer-icon li{
+    list-style: none;
+}
+.footer-content{
+    color: white;
+    margin-top: 40px;
+}
+.footer-icon ul{
+    display: flex;
+    gap: 15px;
+    margin-right: 40px;
+    color: rgba(140, 147, 153, 0.589);
 }
