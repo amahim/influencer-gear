@@ -204,3 +204,38 @@ body{
     margin-right: 40px;
     color: rgba(140, 147, 153, 0.589);
 }
+.hide{
+    display: none;
+}
+
+/*media query*/
+
+@media screen  and (max-width: 576px){
+    .navbar,.nav-items{
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .nav-items{
+        margin-right: 160px;
+    }
+    .companies{
+        width: 400px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 10px;
+    }
+    .companies img{
+        width: 80px;
+        height: 40px;
+    }
+    .product{
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-left: 30px;
+    }
+    .collection h3{
+        margin-right: 650px;
+    }
+}
